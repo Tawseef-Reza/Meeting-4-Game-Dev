@@ -5,6 +5,7 @@ using UnityEngine;
 public class Teleport : MonoBehaviour
 {
     public Transform playerLocation;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +21,13 @@ public class Teleport : MonoBehaviour
     {
         if (other.gameObject.name == "PlayerMan")
         {
-            playerLocation.position = new Vector3(48.7f, 25.63f, 103);
-            print("it works");
+            switch (name) {
+                case "ballOfTeleportation":
+                    playerLocation.position = new Vector3(48.7f, 25.63f, 103);
+                    print("it works");
+                    break;
+
+            }
         }
     }
 }
