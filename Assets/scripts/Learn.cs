@@ -54,19 +54,31 @@ public class Learn : MonoBehaviour
                 break;
             case "ballOfKnowledge (2)":
                 SetNormColor();
-                textToTeach.text = "3. Going to the second icon in the terrain game component allows you to paint terrain, raise or lower terrain, set height, etc. \n\nAdd mountains to your terrain by going to \"raise and lower terrain\", choosing a brush, setting the brush strength to around 0.02, setting a brush size, and then draw!";
+                textToTeach.text = "3. Try the first icon in the terrain game component to create 3 more neighbor terrain.";
                 break;
             case "ballOfKnowledge (3)":
                 SetNormColor();
-                textToTeach.text = "4. Try the first icon in the terrain game component to create 3 more neighbor terrain.";
+                textToTeach.text = "4. Going to the second icon in the terrain game component allows you to paint terrain, raise or lower terrain, set height, etc. Find the paint texture option Scroll down and add a layer, choose one different from the colors of this game.\nThen add another layer, mess around with the settings, and paint your terrain with it.\n\nTry out different brushes and see how they impact your drawing!";
                 break;
             case "ballOfKnowledge (4)":
                 SetNormColor();
-                textToTeach.text = "Go to the second icon again, and find the paint texture option. Scroll down and add a layer, choose one different from the colors of this game.\nThen add another layer, mess around with the settings, and paint your terrain with it.";
+                textToTeach.text = "5. Go to the second icon and find set height. Set the height of all of your terrain to 30.";
                 break;
             case "ballOfKnowledge (5)":
                 SetNormColor();
-                textToTeach.text = ".";
+                textToTeach.text = "6. Go to the second icon again, and find the raise and lower terrain option. \n\nAdd mountains to your terrain, choosing a brush, setting a low brush size, a brush strength, and any specific brush type. Add valleys and lower terrain by ctrl clicking. Then draw!";
+                break;
+            case "ballOfKnowledge (6)":
+                SetNormColor();
+                textToTeach.text = "7. The third icon allows you to give your terrain trees. Go to edit trees, and then choose a game object to act as your tree. \n\nAdd the tree, select it, edit the tree density and brush size to your liking, and try painting your terrain.";
+                break;
+            case "ballOfKnowledge (7)":
+                SetNormColor();
+                textToTeach.text = "8. This time, create your own game object in unity under an empty parent game object to act as your tree. Add materials, and design it however you want. Create a folder called prefabs and drag it into there. Then add it to your terrain using the tree tool. \n\n Remember, you can always increase your terrain size if it is too small.";
+                break;
+            case "ballOfKnowledge (8)":
+                SetNormColor();
+                textToTeach.text = "9. Go to the fourth option, where you can set grass textures and detail meshes. Add a grass texture, choose a texture, then click add. \n\nSelect your new texture and paint parts of the terrain with it, adjusting your opacity, brush size, etc.";
                 break;
 
 
