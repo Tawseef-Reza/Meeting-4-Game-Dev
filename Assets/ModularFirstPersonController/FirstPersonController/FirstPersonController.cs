@@ -458,7 +458,14 @@ public class FirstPersonController : MonoBehaviour
             isGrounded = false;
         }
     }
-
+    public Rigidbody getRigid()
+    {
+        return rb;
+    }
+    public float getJumpPwr()
+    {
+        return jumpPower;
+    }
     private void Jump()
     {
         // Adds force to the player rigidbody to jump

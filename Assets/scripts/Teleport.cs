@@ -24,7 +24,7 @@ public class Teleport : MonoBehaviour
             switch (name) {
                 case "ballOfTeleportation":
                     playerLocation.position = new Vector3(48.7f, 25.63f, 103);
-                    print("it works");
+                    
                     break;
 
             }
