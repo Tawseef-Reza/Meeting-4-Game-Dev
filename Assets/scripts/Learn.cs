@@ -38,7 +38,7 @@ public class Learn : MonoBehaviour
         {
             case "ballOfBeginning":
                 setGreen();
-                textToTeach.text = "Welcome to the Terrain game! \nFollow the balls of knowledge in the game to learn about the terrain tools in Unity!";
+                textToTeach.text = "Welcome to the Terrain game! \nFollow the balls of knowledge in the game to learn about the terrain tools in Unity! \n\nThe balls are in order, so make sure to check the ball number at the top left when reading it to know that you are following the steps correctly!\n\nSome of the balls may be hidden, but you must follow the balls in order! Have fun!";
                 break;
             case "ballOfKnowledge":
                 SetNormColor();
@@ -54,11 +54,11 @@ public class Learn : MonoBehaviour
                 break;
             case "ballOfKnowledge (3)":
                 SetNormColor();
-                textToTeach.text = "Try the first icon in the terrain game component to create neighbor terrain, which creates terrain located at one of the edges.";
+                textToTeach.text = "3. Try the first icon in the terrain game component to create neighbor terrain to create 3 more terrain surrounding the terrain";
                 break;
             case "ballOfKnowledge (4)":
                 SetNormColor();
-                textToTeach.text = ".";
+                textToTeach.text = "4. P.S. You are allowed to move the \"Player Man\" (see hierarchy) forwards as you work on your terrain in between game sessions.\n\nGo to the second icon again, and find the paint texture option. Scroll down and add a layer, choose one different from the colors of this game.\nThen add another layer, mess around with the settings, and paint your terrain with it.";
                 break;
             case "ballOfKnowledge (5)":
                 SetNormColor();

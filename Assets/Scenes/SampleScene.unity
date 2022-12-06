@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.6196745, g: 0.92157805, b: 0.9758052, a: 1}
+  m_IndirectSpecularColor: {r: 0.6196751, g: 0.92157906, b: 0.9758063, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -474,11 +474,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Welcome to the Terrain game! \nFollow the balls of knowledge in the game
-    to learn about the terrain tools in Unity!\n\nThe balls are in order, so make
-    sure to check the ball number at the top left when reading it to know that you
-    are following the steps correctly!\n\nSome of the balls may be hidden, but you
-    must follow the balls in order! Have fun!"
+  m_text: "P.S. You are allowed to move the \\\"Player Man\\\" (see hierarchy) forwards
+    as you work on your terrain in between game sessions.\n\nGo to the second icon
+    again, and find the paint texture option. Scroll down and add a layer, choose
+    one different from the colors of this game. \nThen add another layer, mess around
+    with the settings, and paint your terrain with it."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 73.55
+  m_fontSize: 77.65
   m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1248,6 +1248,63 @@ PrefabInstance:
     - target: {fileID: 7158784536944962611, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
       propertyPath: m_Name
       value: ballOfKnowledge (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+--- !u!1001 &1515247052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962575, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158784536944962611, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: m_Name
+      value: ballOfKnowledge (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
