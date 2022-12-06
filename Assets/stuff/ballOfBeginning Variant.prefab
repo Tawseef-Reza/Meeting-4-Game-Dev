@@ -79,5 +79,9 @@ PrefabInstance:
       propertyPath: ShapeModule.m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 8c75ba30e5f76df4fb30725e4c9bf38a, type: 3}
+    - target: {fileID: 7158784537007753222, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d0cd6a5990155a4e8c3f31482ad458f, type: 3}

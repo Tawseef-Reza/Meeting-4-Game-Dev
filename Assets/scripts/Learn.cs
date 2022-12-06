@@ -80,8 +80,22 @@ public class Learn : MonoBehaviour
                 SetNormColor();
                 textToTeach.text = "9. Go to the fourth option, where you can set grass textures and detail meshes. Add a grass texture, choose a texture, then click add. \n\nSelect your new texture and paint parts of the terrain with it, adjusting your opacity, brush size, etc.";
                 break;
-
-
+            case "ballOfKnowledge (9)":
+                SetNormColor();
+                textToTeach.text = "10. Try incorporating terraces into your terrain! In the 2nd icon, create mountains using the raise/lower terrain, and then go to Sculpt > Terrace and drag the brush over the mountains to create terraces.";
+                break;
+            case "ballOfKnowledge (10)":
+                SetNormColor();
+                textToTeach.text = "11. Want to flatten out your terrain at a certain height? Use the set height tool in the 2nd icon. Add leveled platforms of varying height on your terrain.";
+                break;
+            case "ballOfKnowledge (11)":
+                SetNormColor();
+                textToTeach.text = "12. To create a bridge between two parts/levels of terrain, go to the 2nd icon, Sculpt > Bridge. Follow the instructions in the inspector to create bridges between each of your platforms.";
+                break;
+            case "ballOfKnowledge (12)":
+                SetNormColor();
+                textToTeach.text = "**13** Congrats! You found the hidden ball! Find the end green ball to complete the game!";
+                break;
         }
 
     }
